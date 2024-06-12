@@ -45,7 +45,7 @@ function renderProducts() {
 // Fungsi untuk menangani pesanan produk
 function orderProduct(name, price) {
     const message = `Saya ingin memesan ${name} seharga ${price}`;
-    const whatsappLink = `https://wa.me/6282268483243?text=${encodeURIComponent(message)}`;
+    const whatsappLink = `https://wa.me/6285179798632?text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, '_blank');
 }
 
